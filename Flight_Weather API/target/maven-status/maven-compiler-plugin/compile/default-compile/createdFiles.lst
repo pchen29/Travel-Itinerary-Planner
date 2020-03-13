@@ -1,0 +1,15 @@
+FlightObjects\FlightNumber.class
+Weather.class
+FlightObjects\Flight.class
+FlightObjects\Segment.class
+Flights.class
+ApiKey.class
+FlightObjects\Itinerary.class
+FlightObjects\Place.class
+Main.class
+FlightObjects\PricingOptions.class
+FlightObjects\Agent.class
+FlightObjects\Carrier.class
+FlightObjects\Query.class
+FlightObjects\Currencies.class
+FlightObjects\Leg.class
