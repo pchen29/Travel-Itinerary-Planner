@@ -1,0 +1,321 @@
+hotel_id,hotel_name,n_comment,n_star,url,Price
+1,SponsoredLondon House Hotel,2932,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d243430-Reviews-London_House_Hotel-London_England.html,£102
+2,Park Plaza Westminster Bridge London,22196,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d1657415-Reviews-Park_Plaza_Westminster_Bridge_London-London_England.html,£173
+3,The Tower Hotel,10414,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d193097-Reviews-The_Tower_Hotel-London_England.html,£141
+4,K+K Hotel George,4862,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d195217-Reviews-K_K_Hotel_George-London_England.html,£186
+5,London House Hotel,2932,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d243430-Reviews-London_House_Hotel-London_England.html,£102
+6,"Corus Hyde Park Hotel, Sure Hotel Collection by Best Western",5189,3.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d195279-Reviews-Corus_Hyde_Park_Hotel_Sure_Hotel_Collection_by_Best_Western-London_England.html,£109
+7,SponsoredThe Chronicle by Supercity Aparthotels,60,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d15145187-Reviews-The_Chronicle_by_Supercity_Aparthotels-London_England.html,£163
+8,Novotel London Canary Wharf,1412,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d11621939-Reviews-Novotel_London_Canary_Wharf-London_England.html,£210
+9,Qbic Hotel London City,4862,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d4945399-Reviews-Qbic_Hotel_London_City-London_England.html,£61
+10,Copthorne Tara Hotel London Kensington,8074,3.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d193138-Reviews-Copthorne_Tara_Hotel_London_Kensington-London_England.html,£78
+11,Holiday Inn London - West,1190,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d313125-Reviews-Holiday_Inn_London_West-London_England.html,£86
+12,citizenM Tower of London Hotel,3750,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d10410272-Reviews-CitizenM_Tower_of_London_Hotel-London_England.html,£99
+13,Staybridge Suites London - Vauxhall,1208,5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d6787576-Reviews-Staybridge_Suites_London_Vauxhall-London_England.html,£128
+14,Novotel London Excel,2839,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d291617-Reviews-Novotel_London_Excel-London_England.html,£114
+15,Studios2Let Serviced Apartments - Cartwright Gardens,3048,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d1924847-Reviews-Studios2Let_Serviced_Apartments_Cartwright_Gardens-London_England.html,£78
+16,Hard Rock Hotel London,597,3.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d17351423-Reviews-Hard_Rock_Hotel_London-London_England.html,£130
+17,Dorsett City London,643,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d12437245-Reviews-Dorsett_City_London-London_England.html,£134
+18,The W14 Kensington,1847,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d577546-Reviews-The_W14_Kensington-London_England.html,£59
+19,St. Athans Hotel,820,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d628205-Reviews-St_Athans_Hotel-London_England.html,£92
+20,Holiday Inn London - Kensington High Street,1807,3.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d195280-Reviews-Holiday_Inn_London_Kensington_High_Street-London_England.html,£102
+21,Best Western Victoria Palace,1808,3.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d279648-Reviews-Best_Western_Victoria_Palace-London_England.html,£104
+22,The Westbridge Hotel,2062,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d3398027-Reviews-The_Westbridge_Hotel-London_England.html,£100
+23,Mercure London Paddington Hotel,2098,3.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d195221-Reviews-Mercure_London_Paddington_Hotel-London_England.html,£89
+24,Holiday Inn London Kensington Forum,5018,3.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d193133-Reviews-Holiday_Inn_London_Kensington_Forum-London_England.html,£90
+25,Millennium Gloucester Hotel London Kensington,6027,3.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d193125-Reviews-Millennium_Gloucester_Hotel_London_Kensington-London_England.html,£97
+26,The Bailey's Hotel London,1498,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d193070-Reviews-The_Bailey_s_Hotel_London-London_England.html,£125
+27,The Chelsea Harbour Hotel,2273,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d193620-Reviews-The_Chelsea_Harbour_Hotel-London_England.html,£184
+28,citizenM London Shoreditch,1468,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d10771131-Reviews-CitizenM_London_Shoreditch-London_England.html,£99
+29,Best Western Chiswick Palace & Suites,1164,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d210757-Reviews-Best_Western_Chiswick_Palace_Suites-London_England.html,£65
+30,Leman Locke,776,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d10763222-Reviews-Leman_Locke-London_England.html,£99
+31,Lancaster Gate Hotel,2603,3.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d195206-Reviews-Lancaster_Gate_Hotel-London_England.html,£85
+32,The Wesley Hotel & Conference Venue,2175,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d563893-Reviews-The_Wesley_Hotel_Conference_Venue-London_England.html,£192
+33,SponsoredDanubius Hotel Regents Park,1718,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d193129-Reviews-Danubius_Hotel_Regents_Park-London_England.html,£134
+34,The Chesterfield Mayfair,4426,5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d192064-Reviews-The_Chesterfield_Mayfair-London_England.html,£209
+35,The Savoy,6220,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d187686-Reviews-The_Savoy-London_England.html,£567
+36,"Shangri-La Hotel, At The Shard, London",3371,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d6484754-Reviews-Shangri_La_Hotel_At_The_Shard_London-London_England.html,£478
+37,The Resident Covent Garden (formerly The Nadler Covent Garden),447,5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d15134890-Reviews-The_Resident_Covent_Garden_formerly_The_Nadler_Covent_Garden-London_England.html,£258
+38,The Royal Horseguards,6045,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d193079-Reviews-The_Royal_Horseguards-London_England.html,£298
+39,SponsoredThe Prince Akatoki London,71,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d1626349-Reviews-The_Prince_Akatoki_London-London_England.html,£383
+40,Residence Inn Marriott London Kensington,559,3.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d13451678-Reviews-Residence_Inn_Marriott_London_Kensington-London_England.html,£159
+41,Montcalm Royal London House - City of London,2172,5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d10810215-Reviews-Montcalm_Royal_London_House_City_of_London-London_England.html,£244
+42,The Rembrandt,3459,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d193667-Reviews-The_Rembrandt-London_England.html,£227
+43,"St. James' Court, A Taj Hotel",5019,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d265539-Reviews-St_James_Court_A_Taj_Hotel-London_England.html,£233
+44,Ibis London Earls Court,5489,3.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d192139-Reviews-Ibis_London_Earls_Court-London_England.html,£118
+45,London Marriott Hotel Regents Park,2842,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d193049-Reviews-London_Marriott_Hotel_Regents_Park-London_England.html,£191
+46,Hilton London Canary Wharf,4622,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d585836-Reviews-Hilton_London_Canary_Wharf-London_England.html,£234
+47,Leonardo Royal London Tower Bridge,753,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d2048553-Reviews-Leonardo_Royal_London_Tower_Bridge-London_England.html,£133
+48,DoubleTree by Hilton London Greenwich,2270,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d3507299-Reviews-DoubleTree_by_Hilton_London_Greenwich-London_England.html,£89
+49,Park Plaza London Riverbank,2098,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d577593-Reviews-Park_Plaza_London_Riverbank-London_England.html,£184
+50,The Resident Kensington (formerly The Nadler Kensington),4428,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d189735-Reviews-The_Resident_Kensington_formerly_The_Nadler_Kensington-London_England.html,£133
+51,Park Plaza London Riverbank,1526,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d548136-Reviews-Park_Plaza_London_Riverbank-London_England.html,£180
+52,Park Grand London Lancaster Gate,3015,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d258944-Reviews-Park_Grand_London_Lancaster_Gate-London_England.html,£182
+53,Travelodge London Raynes Park,376,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d7612712-Reviews-Travelodge_London_Raynes_Park-London_England.html,£61
+54,Montana Hotel,1176,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d254585-Reviews-Montana_Hotel-London_England.html,£118
+55,Holiday Inn London - West,1190,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d313125-Reviews-Holiday_Inn_London_West-London_England.html,£96
+56,Lansbury Heritage Hotel,391,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d12259847-Reviews-Lansbury_Heritage_Hotel-London_England.html,£100
+57,The Fielding Hotel,837,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d210069-Reviews-The_Fielding_Hotel-London_England.html,£134
+58,The Westbridge Hotel,2063,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d3398027-Reviews-The_Westbridge_Hotel-London_England.html,£96
+59,ibis London Canning Town Hotel,541,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d12938460-Reviews-Ibis_London_Canning_Town_Hotel-London_England.html,£90
+60,Jesmond Dene Hotel,1916,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d254570-Reviews-Jesmond_Dene_Hotel-London_England.html,£122
+61,Rhodes Hotel,1682,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d214653-Reviews-Rhodes_Hotel-London_England.html,£145
+62,The President Hotel,4385,3.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d189041-Reviews-The_President_Hotel-London_England.html,£105
+63,Travelodge London Central City Road,1683,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d734603-Reviews-Travelodge_London_Central_City_Road-London_England.html,£120
+64,SoHostel,893,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d7104673-Reviews-SoHostel-London_England.html,£78
+65,SponsoredThe Prince Akatoki London,71,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d1626349-Reviews-The_Prince_Akatoki_London-London_England.html,£383
+66,Conrad London St. James,4860,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d2309633-Reviews-Conrad_London_St_James-London_England.html,£260
+67,"The Langham, London",1551,5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d187569-Reviews-The_Langham_London-London_England.html,£366
+68,The Landmark London,230,5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d193105-Reviews-The_Landmark_London-London_England.html,£359
+69,St. Pancras Renaissance Hotel London,4231,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d1866705-Reviews-St_Pancras_Renaissance_Hotel_London-London_England.html,£348
+70,The Hari,1448,5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d2413342-Reviews-The_Hari-London_England.html,£320
+71,SponsoredDanubius Hotel Regents Park,1718,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d193129-Reviews-Danubius_Hotel_Regents_Park-London_England.html,£134
+72,The Montague on The Gardens,5090,5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d192036-Reviews-The_Montague_on_The_Gardens-London_England.html,£222
+73,Amba Hotel Charing Cross,5787,5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d193104-Reviews-Amba_Hotel_Charing_Cross-London_England.html,£222
+74,Radisson Blu Edwardian Mercer Street Hotel,4146,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d192034-Reviews-Radisson_Blu_Edwardian_Mercer_Street_Hotel-London_England.html,£221
+75,Washington Mayfair Hotel,1376,3.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d192066-Reviews-Washington_Mayfair_Hotel-London_England.html,£250
+76,Park International Hotel,2832,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d192145-Reviews-Park_International_Hotel-London_England.html,£199
+77,The Resident Soho (formerly The Nadler Soho),2946,5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d4062677-Reviews-The_Resident_Soho_formerly_The_Nadler_Soho-London_England.html,£242
+78,The Kensington,3742,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d1371050-Reviews-The_Kensington-London_England.html,£260
+79,Pelican London Hotel and Residence,263,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d7182494-Reviews-Pelican_London_Hotel_and_Residence-London_England.html,£153
+80,Hilton London Tower Bridge,4964,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d614236-Reviews-Hilton_London_Tower_Bridge-London_England.html,£280
+81,"Club Quarters Hotel, Trafalgar Square",3274,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d1477336-Reviews-Club_Quarters_Hotel_Trafalgar_Square-London_England.html,£212
+82,Radisson Blu Edwardian Kenilworth Hotel,3827,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d192037-Reviews-Radisson_Blu_Edwardian_Kenilworth_Hotel-London_England.html,£195
+83,Novotel London Tower Bridge,3565,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d199157-Reviews-Novotel_London_Tower_Bridge-London_England.html,£210
+84,Holiday Inn London - Camden Lock,1966,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d277089-Reviews-Holiday_Inn_London_Camden_Lock-London_England.html,£202
+85,Dorsett City London,643,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d12437245-Reviews-Dorsett_City_London-London_England.html,£203
+86,Kip Hotel,312,3.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d9990292-Reviews-Kip_Hotel-London_England.html,£74
+87,Radisson Blu Edwardian Vanderbilt,4944,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d192118-Reviews-Radisson_Blu_Edwardian_Vanderbilt-London_England.html,£158
+88,The Hide London,1072,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d1886452-Reviews-The_Hide_London-London_England.html,£108
+89,Waterloo Hub Hotel & Suites,3208,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d193058-Reviews-Waterloo_Hub_Hotel_Suites-London_England.html,£99
+90,Ibis London City - Shoreditch Hotel,4774,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d555057-Reviews-Ibis_London_City_Shoreditch_Hotel-London_England.html,£111
+91,"Point A Hotel, London Liverpool Street",4112,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d2458180-Reviews-Point_A_Hotel_London_Liverpool_Street-London_England.html,£115
+92,ibis Budget London Whitechapel - Brick Lane,4213,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d3296647-Reviews-Ibis_Budget_London_Whitechapel_Brick_Lane-London_England.html,£56
+93,K West Hotel & Spa,3926,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d192086-Reviews-K_West_Hotel_Spa-London_England.html,£131
+94,Heeton Concept Hotel-Luma Hammersmith,491,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d12146171-Reviews-Heeton_Concept_Hotel_Luma_Hammersmith-London_England.html,£99
+95,DoubleTree by Hilton London Angel Kings Cross (Formerly Islington),2794,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d192030-Reviews-DoubleTree_by_Hilton_London_Angel_Kings_Cross_Formerly_Islington-London_England.html,£155
+96,Travelodge London Waterloo Hotel,1208,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d1812157-Reviews-Travelodge_London_Waterloo_Hotel-London_England.html,£129
+97,SponsoredThe Prince Akatoki London,71,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d1626349-Reviews-The_Prince_Akatoki_London-London_England.html,£383
+98,The Ritz London,4817,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d187591-Reviews-The_Ritz_London-London_England.html,£579
+99,Hotel 41,3406,5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d188961-Reviews-Hotel_41-London_England.html,£327
+100,Page8,25,5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d18939649-Reviews-Page8-London_England.html,£383
+101,The Hoxton Southwark,190,5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d17544824-Reviews-The_Hoxton_Southwark-London_England.html,£156
+102,The Marylebone,4925,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d193617-Reviews-The_Marylebone-London_England.html,£246
+103,SponsoredSouth Place Hotel,1467,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d3437751-Reviews-South_Place_Hotel-London_England.html,£260
+104,The Bloomsbury,4410,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d209229-Reviews-The_Bloomsbury-London_England.html,£257
+105,The Ampersand Hotel,4367,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d2554997-Reviews-The_Ampersand_Hotel-London_England.html,£244
+106,Pullman London St Pancras Hotel,5591,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d192068-Reviews-Pullman_London_St_Pancras_Hotel-London_England.html,£206
+107,The Resident Victoria (formerly The Nadler Victoria),1921,5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d8625676-Reviews-The_Resident_Victoria_formerly_The_Nadler_Victoria-London_England.html,£180
+108,Melia White House,8919,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d199872-Reviews-Melia_White_House-London_England.html,£164
+109,Crowne Plaza London - The City,2957,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d293286-Reviews-Crowne_Plaza_London_The_City-London_England.html,£187
+110,"Radisson Blu Edwardian London, Bloomsbury Street",3709,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d188029-Reviews-Radisson_Blu_Edwardian_London_Bloomsbury_Street-London_England.html,£193
+111,Radisson Blu Edwardian New Providence Wharf Hotel,4710,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d651411-Reviews-Radisson_Blu_Edwardian_New_Providence_Wharf_Hotel-London_England.html,£157
+112,Hilton London Angel Islington,2079,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d193036-Reviews-Hilton_London_Angel_Islington-London_England.html,£164
+113,New Road Hotel,475,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d12971308-Reviews-New_Road_Hotel-London_England.html,£108
+114,Radisson Blu Edwardian Grafton Hotel,5750,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d192261-Reviews-Radisson_Blu_Edwardian_Grafton_Hotel-London_England.html,£166
+115,Citadines Trafalgar Square London,2895,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d193043-Reviews-Citadines_Trafalgar_Square_London-London_England.html,£284
+116,DoubleTree by Hilton Hotel London - Docklands Riverside,2874,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d199849-Reviews-DoubleTree_by_Hilton_Hotel_London_Docklands_Riverside-London_England.html,£127
+117,Hampton by Hilton London Waterloo,3836,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d5961318-Reviews-Hampton_by_Hilton_London_Waterloo-London_England.html,£170
+118,Hilton London Paddington,5160,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d209371-Reviews-Hilton_London_Paddington-London_England.html,£204
+119,Novotel London Greenwich,2310,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d529404-Reviews-Novotel_London_Greenwich-London_England.html,£98
+120,The Z Hotel Piccadilly,1609,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d6703394-Reviews-The_Z_Hotel_Piccadilly-London_England.html,£123
+121,Ridgemount Hotel,1539,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d187680-Reviews-Ridgemount_Hotel-London_England.html,£132
+122,Park Plaza County Hall London,9257,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d672863-Reviews-Park_Plaza_County_Hall_London-London_England.html,£165
+123,Park Plaza London Park Royal,1091,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d11717496-Reviews-Park_Plaza_London_Park_Royal-London_England.html,£112
+124,The Z Hotel Shoreditch,816,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d7796230-Reviews-The_Z_Hotel_Shoreditch-London_England.html,£85
+125,Z Hotel Tottenham Court Road,183,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d13474415-Reviews-Z_Hotel_Tottenham_Court_Road-London_England.html,£130
+126,Phoenix Hotel,2185,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d192081-Reviews-Phoenix_Hotel-London_England.html,£126
+127,Holiday Inn Express London - Hammersmith,1332,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d242713-Reviews-Holiday_Inn_Express_London_Hammersmith-London_England.html,£91
+128,"Point A Hotel, London Westminster",3455,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d1867292-Reviews-Point_A_Hotel_London_Westminster-London_England.html,£84
+129,SponsoredThe Prince Akatoki London,71,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d1626349-Reviews-The_Prince_Akatoki_London-London_England.html,£383
+130,ME London,4112,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d2630895-Reviews-ME_London-London_England.html,£351
+131,"The May Fair, A Radisson Collection Hotel",5850,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d187735-Reviews-The_May_Fair_A_Radisson_Collection_Hotel-London_England.html,£314
+132,The Waldorf Hilton London,5580,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d193045-Reviews-The_Waldorf_Hilton_London-London_England.html,£260
+133,The Chelsea Harbour Hotel,2273,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d193620-Reviews-The_Chelsea_Harbour_Hotel-London_England.html,£186
+134,Sea Containers London,4950,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d6161763-Reviews-Sea_Containers_London-London_England.html,£210
+135,SponsoredOYO Grantly,465,3.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d279641-Reviews-OYO_Grantly-London_England.html,£72
+136,Kimpton Fitzroy London,878,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d193051-Reviews-Kimpton_Fitzroy_London-London_England.html,£291
+137,The Belgrave,1740,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d295184-Reviews-The_Belgrave-London_England.html,£114
+138,The Park City Grand Plaza Kensington Hotel,1661,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d192090-Reviews-The_Park_City_Grand_Plaza_Kensington_Hotel-London_England.html,£190
+139,Ace Hotel London Shoreditch,2224,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d309532-Reviews-Ace_Hotel_London_Shoreditch-London_England.html,£180
+140,Mimi's Hotel Soho,437,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d11962965-Reviews-Mimi_s_Hotel_Soho-London_England.html,£142
+141,The Clarendon Hotel - Blackheath Village,2482,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d289375-Reviews-The_Clarendon_Hotel_Blackheath_Village-London_England.html,£116
+142,DoubleTree by Hilton Hotel London - Chelsea,1977,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d305742-Reviews-DoubleTree_by_Hilton_Hotel_London_Chelsea-London_England.html,£116
+143,DoubleTree by Hilton Hotel London - Victoria,2823,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d195204-Reviews-DoubleTree_by_Hilton_Hotel_London_Victoria-London_England.html,£206
+144,Georgian House Hotel,1067,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d275575-Reviews-Georgian_House_Hotel-London_England.html,£149
+145,The Z Hotel Covent Garden,190,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d15360882-Reviews-The_Z_Hotel_Covent_Garden-London_England.html,£120
+146,The Darlington Hyde Park,2487,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d214639-Reviews-The_Darlington_Hyde_Park-London_England.html,£109
+147,The Chilworth London Paddington,913,5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d735547-Reviews-The_Chilworth_London_Paddington-London_England.html,£197
+148,Ibis London Greenwich,1489,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d191908-Reviews-Ibis_London_Greenwich-London_England.html,£78
+149,Pestana Chelsea Bridge,3139,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d1657540-Reviews-Pestana_Chelsea_Bridge-London_England.html,£160
+150,Hampton by Hilton London Docklands,656,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d12031854-Reviews-Hampton_by_Hilton_London_Docklands-London_England.html,£170
+151,Point A Hotel - London Paddington,3515,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d3226266-Reviews-Point_A_Hotel_London_Paddington-London_England.html,£124
+152,Copthorne Tara Hotel London Kensington,8074,3.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d193138-Reviews-Copthorne_Tara_Hotel_London_Kensington-London_England.html,£107
+153,Travelodge London Central Southwark,3409,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d1061544-Reviews-Travelodge_London_Central_Southwark-London_England.html,£205
+154,The Exhibitionist Hotel,779,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d7171735-Reviews-The_Exhibitionist_Hotel-London_England.html,£160
+155,De Vere Devonport House,1889,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d279834-Reviews-De_Vere_Devonport_House-London_England.html,£130
+156,The East London Hotel,600,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d14912172-Reviews-The_East_London_Hotel-London_England.html,£95
+157,Ibis London Shepherds Bush - Hammersmith Hotel,2392,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d3523343-Reviews-Ibis_London_Shepherds_Bush_Hammersmith_Hotel-London_England.html,£98
+158,Novotel London West,5084,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d193672-Reviews-Novotel_London_West-London_England.html,£142
+159,Holiday Inn Express London - Wandsworth,662,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d189368-Reviews-Holiday_Inn_Express_London_Wandsworth-London_England.html,£95
+160,Ibis London Excel Docklands,2498,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d289185-Reviews-Ibis_London_Excel_Docklands-London_England.html,£73
+161,SponsoredThe Prince Akatoki London,71,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d1626349-Reviews-The_Prince_Akatoki_London-London_England.html,£383
+162,The Ned,1217,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d12258692-Reviews-The_Ned-London_England.html,£324
+163,Hotel 55,531,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d617244-Reviews-Hotel_55-London_England.html,£421
+164,"The Standard, London",159,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d17578734-Reviews-The_Standard_London-London_England.html,£198
+165,Royal Lancaster London,831,5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d195284-Reviews-Royal_Lancaster_London-London_England.html,£280
+166,South Place Hotel,1467,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d3437751-Reviews-South_Place_Hotel-London_England.html,£260
+167,SponsoredDanubius Hotel Regents Park,1718,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d193129-Reviews-Danubius_Hotel_Regents_Park-London_England.html,£134
+168,Radisson Blu Edwardian Hampshire Hotel,3797,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d192033-Reviews-Radisson_Blu_Edwardian_Hampshire_Hotel-London_England.html,£226
+169,The Lalit London,851,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d11744640-Reviews-The_Lalit_London-London_England.html,£224
+170,Hilton London Bankside,2844,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d8505156-Reviews-Hilton_London_Bankside-London_England.html,£218
+171,Roseate House London,2063,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d193165-Reviews-Roseate_House_London-London_England.html,£205
+172,Apex Temple Court Hotel,4787,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d2539103-Reviews-Apex_Temple_Court_Hotel-London_England.html,£184
+173,Staybridge Suites London - Vauxhall,1208,5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d6787576-Reviews-Staybridge_Suites_London_Vauxhall-London_England.html,£200
+174,Mountview Guesthouse - Crouch End,213,5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d575094-Reviews-Mountview_Guesthouse_Crouch_End-London_England.html,£88
+175,London Marriott Hotel Canary Wharf,2612,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d308694-Reviews-London_Marriott_Hotel_Canary_Wharf-London_England.html,£164
+176,London Bridge Hotel,3109,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d192044-Reviews-London_Bridge_Hotel-London_England.html,£186
+177,The Bailey's Hotel London,1498,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d193070-Reviews-The_Bailey_s_Hotel_London-London_England.html,£183
+178,Rafayel on the Left Bank,2372,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d1600126-Reviews-Rafayel_on_the_Left_Bank-London_England.html,£240
+179,Grand Plaza Serviced Apartments,3281,3.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d278540-Reviews-Grand_Plaza_Serviced_Apartments-London_England.html,£184
+180,Hilton London Kensington,5373,3.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d195185-Reviews-Hilton_London_Kensington-London_England.html,£108
+181,The Z Hotel Soho,2021,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d2373087-Reviews-The_Z_Hotel_Soho-London_England.html,£137
+182,The Lion & Key Hotel,303,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d8833274-Reviews-The_Lion_Key_Hotel-London_England.html,£122
+183,Hotel Tavistock,3211,3.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d210745-Reviews-Hotel_Tavistock-London_England.html,£126
+184,Holiday Inn Express London - Park Royal,1136,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d279632-Reviews-Holiday_Inn_Express_London_Park_Royal-London_England.html,£137
+185,Crowne Plaza London - Kings Cross,3949,3.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d195200-Reviews-Crowne_Plaza_London_Kings_Cross-London_England.html,£121
+186,Z at Gloucester Place,446,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d214331-Reviews-Z_at_Gloucester_Place-London_England.html,£115
+187,Princess Hotel,309,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d287322-Reviews-Princess_Hotel-London_England.html,£83
+188,Point A Hotel London Shoreditch,1680,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d12103640-Reviews-Point_A_Hotel_London_Shoreditch-London_England.html,£121
+189,Residence Inn London Tower Bridge,405,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d12899878-Reviews-Residence_Inn_London_Tower_Bridge-London_England.html,£156
+190,Best Western Victoria Palace,1808,3.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d279648-Reviews-Best_Western_Victoria_Palace-London_England.html,£115
+191,Travelodge London Greenwich High Road,805,3.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d8596724-Reviews-Travelodge_London_Greenwich_High_Road-London_England.html,£67
+192,Wombat's City Hostel London,1068,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d7147409-Reviews-Wombat_s_City_Hostel_London-London_England.html,£104
+193,SponsoredThe Prince Akatoki London,71,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d1626349-Reviews-The_Prince_Akatoki_London-London_England.html,£383
+194,Corinthia London,3416,5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d1845678-Reviews-Corinthia_London-London_England.html,£603
+195,St Martins Lane London,3297,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d193107-Reviews-St_Martins_Lane_London-London_England.html,£250
+196,Town Hall Hotel,1554,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d1575211-Reviews-Town_Hall_Hotel-London_England.html,£309
+197,Thistle Piccadilly Hotel,1412,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d193044-Reviews-Thistle_Piccadilly_Hotel-London_England.html,£271
+198,The Montcalm At The Brewery London City,3478,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d2048999-Reviews-The_Montcalm_At_The_Brewery_London_City-London_England.html,£244
+199,SponsoredOYO Grantly,465,3.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d279641-Reviews-OYO_Grantly-London_England.html,£72
+200,"The Hoxton, Shoreditch",5676,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d621785-Reviews-The_Hoxton_Shoreditch-London_England.html,£213
+201,Holiday Inn Express London - Greenwich,1557,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d535159-Reviews-Holiday_Inn_Express_London_Greenwich-London_England.html,£185
+202,Holiday Inn London Bloomsbury,3555,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d193648-Reviews-Holiday_Inn_London_Bloomsbury-London_England.html,£177
+203,Malmaison London,2038,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d288904-Reviews-Malmaison_London-London_England.html,£181
+204,Sloane Square Hotel,1585,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d195285-Reviews-Sloane_Square_Hotel-London_England.html,£146
+205,citizenM Tower of London Hotel,3750,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d10410272-Reviews-CitizenM_Tower_of_London_Hotel-London_England.html,£173
+206,Number 63,193,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d2557597-Reviews-Number_63-London_England.html,£155
+207,Holiday Inn London Kensington Forum,5018,3.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d193133-Reviews-Holiday_Inn_London_Kensington_Forum-London_England.html,£150
+208,OYO The Cleveland Hotel,724,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d657636-Reviews-OYO_The_Cleveland_Hotel-London_England.html,£147
+209,Hotel Indigo London Kensington,2369,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d192143-Reviews-Hotel_Indigo_London_Kensington-London_England.html,£137
+210,Good Hotel London,1780,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d11833714-Reviews-Good_Hotel_London-London_England.html,£105
+211,88 Studios Kensington,158,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d10059493-Reviews-88_Studios_Kensington-London_England.html,£98
+212,CitizenM London Bankside,4494,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d3199601-Reviews-CitizenM_London_Bankside-London_England.html,£159
+213,Clayton Hotel City of London,255,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d15243736-Reviews-Clayton_Hotel_City_of_London-London_England.html,£134
+214,"Corus Hyde Park Hotel, Sure Hotel Collection by Best Western",5195,3.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d195279-Reviews-Corus_Hyde_Park_Hotel_Sure_Hotel_Collection_by_Best_Western-London_England.html,£161
+215,Holiday Inn Express London - ExCeL,959,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d7797352-Reviews-Holiday_Inn_Express_London_ExCeL-London_England.html,£92
+216,Park Villa Boutique Hostel,113,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d8460642-Reviews-Park_Villa_Boutique_Hostel-London_England.html,£68
+217,Novotel London Paddington Hotel,3016,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d1159072-Reviews-Novotel_London_Paddington_Hotel-London_England.html,£160
+218,Travelodge London Vauxhall Hotel,2144,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d4191654-Reviews-Travelodge_London_Vauxhall_Hotel-London_England.html,£137
+219,Travelodge London Crystal Palace,73,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d3154876-Reviews-Travelodge_London_Crystal_Palace-London_England.html,£61
+220,Crowne Plaza London Docklands,2205,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d279655-Reviews-Crowne_Plaza_London_Docklands-London_England.html,£146
+221,Euro Hotel Hammersmith,172,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d551172-Reviews-Euro_Hotel_Hammersmith-London_England.html,£64
+222,Dorsett Shepherds Bush London,2118,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d5823268-Reviews-Dorsett_Shepherds_Bush_London-London_England.html,£155
+223,Alhambra Hotel,2330,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d210066-Reviews-Alhambra_Hotel-London_England.html,£108
+224,Ibis London Blackfriars Hotel,4265,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d3523344-Reviews-Ibis_London_Blackfriars_Hotel-London_England.html,£79
+225,SponsoredThe Prince Akatoki London,71,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d1626349-Reviews-The_Prince_Akatoki_London-London_England.html,£383
+226,The Goring,1718,5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d214516-Reviews-The_Goring-London_England.html,£447
+227,The Prince Akatoki London,71,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d1626349-Reviews-The_Prince_Akatoki_London-London_England.html,£383
+228,Vintry & Mercer,411,5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d13126259-Reviews-Vintry_Mercer-London_England.html,£236
+229,The Montcalm London Marble Arch,3193,5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d192069-Reviews-The_Montcalm_London_Marble_Arch-London_England.html,£331
+230,The Rubens at the Palace,5253,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d199868-Reviews-The_Rubens_at_the_Palace-London_England.html,£220
+231,SponsoredOYO Grantly,465,3.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d279641-Reviews-OYO_Grantly-London_England.html,£72
+232,The Curtain,535,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d10844183-Reviews-The_Curtain-London_England.html,£223
+233,69TheGrove,1437,5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d1232917-Reviews-69TheGrove-London_England.html,£138
+234,"Victory House London, Leicester Square",226,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d12105976-Reviews-Victory_House_London_Leicester_Square-London_England.html,£242
+235,"100 Queen’s Gate Hotel London, Curio Collection by Hilton",270,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d199848-Reviews-100_Queen_s_Gate_Hotel_London_Curio_Collection_by_Hilton-London_England.html,£191
+236,Thistle Trafalgar Square,2123,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d193111-Reviews-Thistle_Trafalgar_Square-London_England.html,£214
+237,The Wesley Hotel & Conference Venue,2175,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d563893-Reviews-The_Wesley_Hotel_Conference_Venue-London_England.html,£177
+238,Holiday Inn Express London Royal Docks - Docklands,1159,3.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d189377-Reviews-Holiday_Inn_Express_London_Royal_Docks_Docklands-London_England.html,£187
+239,The Captain Cook,110,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d8671439-Reviews-The_Captain_Cook-London_England.html,£87
+240,Rathbone Hotel,1405,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d199847-Reviews-Rathbone_Hotel-London_England.html,£172
+241,The Queen's Gate Hotel,1370,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d215295-Reviews-The_Queen_s_Gate_Hotel-London_England.html,£118
+242,The Beverley Hotel,239,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d9984821-Reviews-The_Beverley_Hotel-London_England.html,£127
+243,M by Montcalm Shoreditch London Tech City,2874,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d7182667-Reviews-M_by_Montcalm_Shoreditch_London_Tech_City-London_England.html,£197
+244,Holiday Inn Express London - Golders Green,641,3.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d670916-Reviews-Holiday_Inn_Express_London_Golders_Green-London_England.html,£95
+245,Assembly Hotel London,428,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d14078928-Reviews-Assembly_Hotel_London-London_England.html,£137
+246,Leonardo Royal London St. Paul's,628,3.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d605356-Reviews-Leonardo_Royal_London_St_Paul_s-London_England.html,£160
+247,Holiday Inn Express London - Ealing,318,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d8631882-Reviews-Holiday_Inn_Express_London_Ealing-London_England.html,£76
+248,Best Western Chiswick Palace & Suites,1164,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d210757-Reviews-Best_Western_Chiswick_Palace_Suites-London_England.html,£107
+249,Church Street Hotel,519,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d654054-Reviews-Church_Street_Hotel-London_England.html,£77
+250,Studios2Let Serviced Apartments - Cartwright Gardens,3048,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d1924847-Reviews-Studios2Let_Serviced_Apartments_Cartwright_Gardens-London_England.html,£86
+251,Days Inn by Wyndham London Hyde Park,1300,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d602623-Reviews-Days_Inn_by_Wyndham_London_Hyde_Park-London_England.html,£144
+252,Travelodge London City Airport Hotel,1700,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d594943-Reviews-Travelodge_London_City_Airport_Hotel-London_England.html,£68
+253,Travelodge Wembley,1716,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d597383-Reviews-Travelodge_Wembley-London_England.html,£47
+254,Holiday Inn Express London City,1632,3.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d189339-Reviews-Holiday_Inn_Express_London_City-London_England.html,£134
+255,The Caesar Hotel,2712,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d192097-Reviews-The_Caesar_Hotel-London_England.html,£115
+256,"Mandarin Oriental Hyde Park, London",143,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d188963-Reviews-Mandarin_Oriental_Hyde_Park_London-London_England.html,£801
+257,SponsoredThe Prince Akatoki London,71,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d1626349-Reviews-The_Prince_Akatoki_London-London_England.html,£383
+258,Taj 51 Buckingham Gate Suites and Residences,1987,5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d559155-Reviews-Taj_51_Buckingham_Gate_Suites_and_Residences-London_England.html,£396
+259,The Milestone Hotel and Residences,2455,5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d193121-Reviews-The_Milestone_Hotel_and_Residences-London_England.html,£279
+260,Great Scotland Yard,64,5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d18456059-Reviews-Great_Scotland_Yard-London_England.html,£296
+261,London Marriott Hotel County Hall,3396,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d195225-Reviews-London_Marriott_Hotel_County_Hall-London_England.html,£331
+262,Flemings Mayfair,2696,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d255225-Reviews-Flemings_Mayfair-London_England.html,£252
+263,SponsoredSouth Place Hotel,1467,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d3437751-Reviews-South_Place_Hotel-London_England.html,£260
+264,London Hilton on Park Lane,3962,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d195224-Reviews-London_Hilton_on_Park_Lane-London_England.html,£309
+265,Montagu Place Hotel,772,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d613653-Reviews-Montagu_Place_Hotel-London_England.html,£214
+266,The Piccadilly London West End,1454,5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d193114-Reviews-The_Piccadilly_London_West_End-London_England.html,£290
+267,The Laslett,375,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d3628648-Reviews-The_Laslett-London_England.html,£216
+268,Apex London Wall Hotel,2518,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d1507196-Reviews-Apex_London_Wall_Hotel-London_England.html,£204
+269,Melia London Kensington,1625,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d199140-Reviews-Melia_London_Kensington-London_England.html,£203
+270,Arosfa Hotel London by Compass Hospitality,1995,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d209146-Reviews-Arosfa_Hotel_London_by_Compass_Hospitality-London_England.html,£230
+271,Merit Kensington Hotel,28,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d17765524-Reviews-Merit_Kensington_Hotel-London_England.html,£113
+272,Ambassadors Bloomsbury,2485,3.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d199106-Reviews-Ambassadors_Bloomsbury-London_England.html,£182
+273,Holiday Inn London - Regent's Park,2706,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d224737-Reviews-Holiday_Inn_London_Regent_s_Park-London_England.html,£170
+274,Apex City of London Hotel,5183,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d572859-Reviews-Apex_City_of_London_Hotel-London_England.html,£189
+275,Bay Tree House Bed & Breakfast,899,5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d489844-Reviews-Bay_Tree_House_Bed_Breakfast-London_England.html,£96
+276,Hotel Indigo London Tower Hill,1507,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d1803696-Reviews-Hotel_Indigo_London_Tower_Hill-London_England.html,£155
+277,Residence Inn Marriott London Bridge,261,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d12723519-Reviews-Residence_Inn_Marriott_London_Bridge-London_England.html,£157
+278,Amba Hotel Marble Arch,3061,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d193084-Reviews-Amba_Hotel_Marble_Arch-London_England.html,£226
+279,Citadines South Kensington,1215,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d195386-Reviews-Citadines_South_Kensington-London_England.html,£140
+280,Dolphin House Serviced Apartments,1482,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d651345-Reviews-Dolphin_House_Serviced_Apartments-London_England.html,£165
+281,The Royal Foundation of St Katharine,648,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d2241392-Reviews-The_Royal_Foundation_of_St_Katharine-London_England.html,£105
+282,Glenlyn Hotel,598,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d574716-Reviews-Glenlyn_Hotel-London_England.html,£137
+283,Danubius Hotel Regents Park,1718,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d193129-Reviews-Danubius_Hotel_Regents_Park-London_England.html,£134
+284,Novotel London Bridge Hotel,2772,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d273194-Reviews-Novotel_London_Bridge_Hotel-London_England.html,£169
+285,Hotel Xanadu,656,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d3308812-Reviews-Hotel_Xanadu-London_England.html,£105
+286,Clink78,2686,3.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d1068244-Reviews-Clink78-London_England.html,£51
+287,Holiday Inn Express London-Limehouse,1158,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d289182-Reviews-Holiday_Inn_Express_London_Limehouse-London_England.html,£111
+288,Rosewood London,2573,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d193108-Reviews-Rosewood_London-London_England.html,£900
+289,SponsoredDanubius Hotel Regents Park,1718,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d193129-Reviews-Danubius_Hotel_Regents_Park-London_England.html,£134
+290,Covent Garden Hotel,1219,5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d188937-Reviews-Covent_Garden_Hotel-London_England.html,£465
+291,Taj 51 Buckingham Gate Suites and Residences,1987,5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d559155-Reviews-Taj_51_Buckingham_Gate_Suites_and_Residences-London_England.html,£396
+292,Montagu Place Hotel,772,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d613653-Reviews-Montagu_Place_Hotel-London_England.html,£214
+293,The Cavendish London,4741,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d192116-Reviews-The_Cavendish_London-London_England.html,£255
+294,The Sanctuary House Hotel,1838,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d214658-Reviews-The_Sanctuary_House_Hotel-London_England.html,£237
+295,SponsoredThe Prince Akatoki London,71,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d1626349-Reviews-The_Prince_Akatoki_London-London_England.html,£383
+296,The Devonshire,18,5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d6124829-Reviews-The_Devonshire-London_England.html,£168
+297,The Half Moon,307,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d12198683-Reviews-The_Half_Moon-London_England.html,£182
+298,Andaz London Liverpool Street,4441,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d798951-Reviews-Andaz_London_Liverpool_Street-London_England.html,£237
+299,Nobu Hotel Shoreditch,415,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d12099573-Reviews-Nobu_Hotel_Shoreditch-London_England.html,£219
+300,St Paul's Hotel,664,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d6619066-Reviews-St_Paul_s_Hotel-London_England.html,£235
+301,"Lincoln Plaza London, Curio Collection by Hilton",181,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d12441410-Reviews-Lincoln_Plaza_London_Curio_Collection_by_Hilton-London_England.html,£154
+302,The Grand at Trafalgar Square,1961,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d677369-Reviews-The_Grand_at_Trafalgar_Square-London_England.html,£208
+303,Karma Sanctum Soho,927,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d1382927-Reviews-Karma_Sanctum_Soho-London_England.html,£194
+304,Crowne Plaza London - Battersea,1644,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d1901806-Reviews-Crowne_Plaza_London_Battersea-London_England.html,£122
+305,The Fox & Goose Hotel,1377,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d287331-Reviews-The_Fox_Goose_Hotel-London_England.html,£170
+306,Mornington Hotel London Victoria,245,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d214637-Reviews-Mornington_Hotel_London_Victoria-London_England.html,£127
+307,Ibis Styles London Kensington Hotel,1671,3.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d7141155-Reviews-Ibis_Styles_London_Kensington_Hotel-London_England.html,£133
+308,Grove Guest House,183,5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d3528553-Reviews-Grove_Guest_House-London_England.html,£80
+309,Ibis London Docklands Canary Wharf,1033,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d192055-Reviews-Ibis_London_Docklands_Canary_Wharf-London_England.html,£108
+310,Holiday Inn London - Kensington High Street,1807,3.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d195280-Reviews-Holiday_Inn_London_Kensington_High_Street-London_England.html,£117
+311,Citadines Barbican London,331,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d195385-Reviews-Citadines_Barbican_London-London_England.html,£141
+312,Clayton Hotel Chiswick,1080,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d612797-Reviews-Clayton_Hotel_Chiswick-London_England.html,£111
+313,Thistle Kensington Gardens,2717,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d195301-Reviews-Thistle_Kensington_Gardens-London_England.html,£122
+314,Leman Locke,776,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d10763222-Reviews-Leman_Locke-London_England.html,£90
+315,Crowne Plaza Hotel London Ealing,1226,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d195199-Reviews-Crowne_Plaza_Hotel_London_Ealing-London_England.html,£128
+316,Travelodge London Excel,1308,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d3291169-Reviews-Travelodge_London_Excel-London_England.html,£68
+317,Travelodge London Wembley High Road,949,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d7248301-Reviews-Travelodge_London_Wembley_High_Road-London_England.html,£53
+318,Citadines Holborn-Covent Garden London,1666,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d192043-Reviews-Citadines_Holborn_Covent_Garden_London-London_England.html,£161
+319,Ibis Styles London Southwark,2422,4 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d313127-Reviews-Ibis_Styles_London_Southwark-London_England.html,£129
+320,Marlin Waterloo,1014,4.5 of 5 bubbles,https://www.tripadvisor.com/Hotel_Review-g186338-d12475989-Reviews-Marlin_Waterloo-London_England.html,£133

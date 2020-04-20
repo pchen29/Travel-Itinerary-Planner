@@ -1,0 +1,12 @@
+,inb_time,inb_airport,inb_flight,inb_duration,inb_stop_times,inb_stop_airport,outb_time,outb_airport,inb_flight,outb_duration,outb_stop_times,outb_stop_airport,price,flycore
+0,5:10 PM - 6:10 PM,MAN - LHR,British Airways,1h 0m,Nonstop,,8:00 AM - 9:00 AM,LHR - MAN,British Airways,1h 0m,Nonstop,,£151,7.3
+1,3:05 PM - 4:10 PM,MAN - LHR,British Airways,1h 0m,Nonstop,,8:00 AM - 9:00 AM,LHR - MAN,British Airways,1h 0m,Nonstop,,£151,7.3
+2,5:10 PM - 6:10 PM,MAN - LHR,British Airways,1h 0m,Nonstop,,1:10 PM - 2:15 PM,LHR - MAN,British Airways,1h 0m,Nonstop,,£151,6.9
+3,5:10 PM - 6:10 PM,MAN - LHR,British Airways,1h 0m,Nonstop,,3:15 PM - 4:20 PM,LHR - MAN,British Airways,1h 0m,Nonstop,,£151,7.3
+4,5:10 PM - 6:10 PM,MAN - LHR,British Airways,1h 0m,Nonstop,,6:25 PM - 7:30 PM,LHR - MAN,British Airways,1h 0m,Nonstop,,£151,7.3
+5,5:10 PM - 6:10 PM,MAN - LHR,British Airways,1h 0m,Nonstop,,5:30 PM - 6:35 PM,LHR - MAN,British Airways,1h 0m,Nonstop,,£151,7.3
+6,12:00 PM - 1:10 PM,MAN - LHR,British Airways,1h 0m,Nonstop,,8:00 AM - 9:00 AM,LHR - MAN,British Airways,1h 0m,Nonstop,,£151,7.3
+7,3:05 PM - 4:10 PM,MAN - LHR,British Airways,1h 0m,Nonstop,,5:30 PM - 6:35 PM,LHR - MAN,British Airways,1h 0m,Nonstop,,£151,7.3
+8,3:05 PM - 4:10 PM,MAN - LHR,British Airways,1h 0m,Nonstop,,3:15 PM - 4:20 PM,LHR - MAN,British Airways,1h 0m,Nonstop,,£151,7.3
+9,3:05 PM - 4:10 PM,MAN - LHR,British Airways,1h 0m,Nonstop,,6:25 PM - 7:30 PM,LHR - MAN,British Airways,1h 0m,Nonstop,,£151,7.3
+10,3:05 PM - 4:10 PM,MAN - LHR,British Airways,1h 0m,Nonstop,,1:10 PM - 2:15 PM,LHR - MAN,British Airways,1h 0m,Nonstop,,£151,7.0
