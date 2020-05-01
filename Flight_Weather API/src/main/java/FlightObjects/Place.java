@@ -4,49 +4,73 @@ import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class Place {
-    private int parentId;
+    private int placeId;
     private String type;
-    private int id;
-    private String code;
+    private String cityId;
+    private String countryName;
+    private String i_ataCode;
+    private String skyscannerCode;
+    private String cityName;
     private String name;
 @JsonCreator
-    public Place(@JsonProperty("ParentId") int parentId,
+    public Place(@JsonProperty("PlaceId") int placeId,
                  @JsonProperty("Type")String type,
-                 @JsonProperty("Id")int id,
-                 @JsonProperty("Code")String code,
+                 @JsonProperty("CityId")String cityId,
+                 @JsonProperty("CountryName")String countryName,
+                 @JsonProperty("IataCode")String i_ataCode,
+                 @JsonProperty("SkyscannerCode")String skyscannerCode,
+                 @JsonProperty("CityName")String cityName,
                  @JsonProperty("Name")String name) {
-        this.parentId = parentId;
+        this.placeId = placeId;
         this.type = type;
-        this.id = id;
-        this.code = code;
+        this.cityId = cityId;
+        this.countryName = countryName;
+        this.i_ataCode = i_ataCode;
+        this.skyscannerCode = skyscannerCode;
+        this.cityName = cityName;
         this.name = name;
     }
 
     @Override
     public String toString() {
         return "Place{" +
-                "parentId=" + parentId +
+                "placeId=" + placeId +
                 ", type='" + type + '\'' +
-                ", id=" + id +
-                ", code='" + code + '\'' +
+                ", cityId='" + cityId + '\'' +
+                ", countryName='" + countryName + '\'' +
+                ", i_ataCode='" + i_ataCode + '\'' +
+                ", skyscannerCode='" + skyscannerCode + '\'' +
+                ", cityName='" + cityName + '\'' +
                 ", name='" + name + '\'' +
                 '}';
     }
 
-    public int getParentId() {
-        return parentId;
+    public int getPlaceId() {
+        return placeId;
     }
 
     public String getType() {
         return type;
     }
 
-    public int getId() {
-        return id;
+    public String getCityId() {
+        return cityId;
     }
 
-    public String getCode() {
-        return code;
+    public String getCountryName() {
+        return countryName;
+    }
+
+    public String getI_ataCode() {
+        return i_ataCode;
+    }
+
+    public String getSkyscannerCode() {
+        return skyscannerCode;
+    }
+
+    public String getCityName() {
+        return cityName;
     }
 
     public String getName() {
