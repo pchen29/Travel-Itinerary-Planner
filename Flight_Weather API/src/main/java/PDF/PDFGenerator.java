@@ -10,6 +10,7 @@ import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 import java.io.*;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
@@ -63,22 +64,23 @@ public class PDFGenerator {
 
     }
 
-    public void getNewPDF(Map<String, Object> data, List<String> attachments) throws Exception{
+    public List<String> getNewPDF(Map<String, Object> data, int fileNum) throws Exception{
 
+        List<String> attachments = new ArrayList<String>();
         String html = getHtmlStr(filePath, fileName, data);
         try{
-            for(int i=0;i<3;i++){
+            for(int i=0;i<fileNum;i++){
                 String fileName = "0" + i+".pdf";
                 String filePath = "./src/" + fileName;
                 FileOutputStream out = new FileOutputStream(new File(filePath));
                 generatePDF(html, out);
-                attachments.add(fileName);
+                attachments.add(filePath);
             }
 
         }catch (Exception e){
             e.printStackTrace();
         }
-
+        return attachments;
     }
 
 }

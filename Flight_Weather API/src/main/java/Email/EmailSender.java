@@ -50,18 +50,22 @@ public class EmailSender {
 
             // add attachments
             Multipart multipart = new MimeMultipart();
-            MimeBodyPart bodyPart = new MimeBodyPart();
+
             if(attachments.size() != 0){
                 for(int i=0; i<attachments.size(); i++) {
-                    String fileName = attachments.get(i);
-                    DataSource dataSource = new FileDataSource(fileName);
+                    String filePath = attachments.get(i);
+                    MimeBodyPart bodyPart = new MimeBodyPart();
+                    bodyPart.attachFile(filePath);
+                    /*DataSource dataSource = new FileDataSource(fileName);
                     bodyPart.setDataHandler(new DataHandler(dataSource));
                     bodyPart.setFileName(fileName);
                     bodyPart.setHeader("Content-Type", dataSource.getContentType());
                     bodyPart.setHeader("Content-ID", fileName);
                     bodyPart.setDisposition(Part.ATTACHMENT);
+                    */
+                    multipart.addBodyPart(bodyPart);
                 }
-                multipart.addBodyPart(bodyPart);
+
                 message.setContent(multipart);
             }
             else{
