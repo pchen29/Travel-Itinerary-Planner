@@ -19,6 +19,16 @@ public class PDFGenerator {
     private static String filePath = "./src/main/java/";
     private static String fileName = "test.html";
 
+    /**
+     *  emerge html template file with data
+     *  transform the html file to string
+     *
+     * @param filePath
+     * @param fileName
+     * @param var
+     * @return
+     * @throws Exception
+     */
     public String getHtmlStr(String filePath, String fileName, Map<String, Object> var) throws Exception {
 
         String htmlStr = "";
@@ -50,7 +60,13 @@ public class PDFGenerator {
         return htmlStr;
     }
 
-
+    /**
+     * generate pdf file
+     *
+     * @param htmlStr
+     * @param out
+     * @throws Exception
+     */
     public void generatePDF(String htmlStr, OutputStream out) throws Exception {
 
         DocumentBuilder builder = DocumentBuilderFactory.newInstance().newDocumentBuilder();
@@ -64,7 +80,17 @@ public class PDFGenerator {
 
     }
 
-    public List<String> getNewPDF(Map<String, Object> data, int fileNum) throws Exception{
+    /**
+     * grain the html string
+     * generate pdf file
+     * add files to the list of attachments
+     *
+     * @param data
+     * @param fileNum
+     * @return
+     * @throws Exception
+     */
+    public List<String> addAttachments(Map<String, Object> data, int fileNum) throws Exception{
 
         List<String> attachments = new ArrayList<String>();
         String html = getHtmlStr(filePath, fileName, data);

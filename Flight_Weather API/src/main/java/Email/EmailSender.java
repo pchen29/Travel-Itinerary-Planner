@@ -14,6 +14,12 @@ public class EmailSender {
     private static String port = "465";
     private static String encoding = "UTF-8";
 
+    /**
+     * send email to a user
+     *
+     * @param recipient
+     * @param attachments
+     */
     public void sendEmail(String recipient, List<String>attachments){
 
         EmailInfo emailInfo = new EmailInfo(recipient,attachments);
@@ -37,7 +43,15 @@ public class EmailSender {
         }
     }
 
-
+    /**
+     *create a message with the list of attachments
+     *
+     * @param session
+     * @param sender
+     * @param recipient
+     * @param attachments
+     * @return
+     */
     private synchronized MimeMessage createMessage(Session session, String sender, String recipient, List<String>attachments){
         MimeMessage message = new MimeMessage(session);
         try {
@@ -47,22 +61,13 @@ public class EmailSender {
             message.setRecipient(MimeMessage.RecipientType.TO, new InternetAddress(recipient, recipient,encoding));
             // set the subject of the email
             message.setSubject("Travel Plans", encoding);
-
             // add attachments
             Multipart multipart = new MimeMultipart();
-
             if(attachments.size() != 0){
                 for(int i=0; i<attachments.size(); i++) {
                     String filePath = attachments.get(i);
                     MimeBodyPart bodyPart = new MimeBodyPart();
                     bodyPart.attachFile(filePath);
-                    /*DataSource dataSource = new FileDataSource(fileName);
-                    bodyPart.setDataHandler(new DataHandler(dataSource));
-                    bodyPart.setFileName(fileName);
-                    bodyPart.setHeader("Content-Type", dataSource.getContentType());
-                    bodyPart.setHeader("Content-ID", fileName);
-                    bodyPart.setDisposition(Part.ATTACHMENT);
-                    */
                     multipart.addBodyPart(bodyPart);
                 }
 
