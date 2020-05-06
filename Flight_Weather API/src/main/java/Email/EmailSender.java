@@ -22,7 +22,7 @@ public class EmailSender {
      */
     public void sendEmail(String recipient, List<String>attachments){
 
-        EmailInfo emailInfo = new EmailInfo(recipient,attachments);
+        EmailInfo emailInfo = new EmailInfo();
         Properties props = new Properties();
         props.put("mail.smpt.host", host);
         props.put("mail.smtp.auth", "true");

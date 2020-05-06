@@ -16,11 +16,13 @@ import java.util.Map;
 
 public class PDFGenerator {
 
+    // the file path of the pdf template
     private static String filePath = "./src/main/java/";
+    // the file name of the pdf template
     private static String fileName = "test.html";
 
     /**
-     *  emerge html template file with data
+     *  emerge pdf template file with data
      *  transform the html file to string
      *
      * @param filePath
@@ -85,18 +87,17 @@ public class PDFGenerator {
      * generate pdf file
      * add files to the list of attachments
      *
-     * @param data
-     * @param fileNum
+     * @param dataList the list of multi-version plan
      * @return
      * @throws Exception
      */
-    public List<String> addAttachments(Map<String, Object> data, int fileNum) throws Exception{
+    public List<String> getAttachmentsList(List<Map<String, Object>> dataList) throws Exception{
 
         List<String> attachments = new ArrayList<String>();
-        String html = getHtmlStr(filePath, fileName, data);
         try{
-            for(int i=0;i<fileNum;i++){
-                String fileName = "0" + i+".pdf";
+            for(int i=0;i<dataList.size();i++){
+                String html = getHtmlStr(filePath, fileName, dataList.get(i));
+                String fileName = "plan " + (i+1) +".pdf";
                 String filePath = "./src/" + fileName;
                 FileOutputStream out = new FileOutputStream(new File(filePath));
                 generatePDF(html, out);
