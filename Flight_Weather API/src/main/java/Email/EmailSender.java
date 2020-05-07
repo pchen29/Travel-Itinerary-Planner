@@ -16,6 +16,9 @@ public class EmailSender {
     private static String port = "465";
     private static String encoding = "UTF-8";
 
+    // the file path of final plans
+    private static final String MERGED_PDF = "/sre/travel plans.pdf";
+
     /**
      * send email to a user with plans
      *
@@ -40,11 +43,12 @@ public class EmailSender {
          */
         PDFGenerator generator = new PDFGenerator();
         List<String> attachments = generator.getAttachmentsList(data);
+        generator.mergePDF(attachments);
 
         try{// transport message
             Transport transport = session.getTransport("smtp");
             transport.connect(host, emailInfo.getSender(), emailInfo.getPassword());
-            MimeMessage message = createMessage(session, emailInfo.getSender(), recipient, attachments);
+            MimeMessage message = createMessage(session, emailInfo.getSender(), recipient, MERGED_PDF);
             transport.sendMessage(message, message.getAllRecipients());
             transport.close();
         }catch (Exception e){
@@ -58,10 +62,10 @@ public class EmailSender {
      * @param session
      * @param sender
      * @param recipient
-     * @param attachments
+     * @param filePath the file path of the travel plan
      * @return
      */
-    private synchronized MimeMessage createMessage(Session session, String sender, String recipient, List<String>attachments){
+    private synchronized MimeMessage createMessage(Session session, String sender, String recipient, String filePath){
         MimeMessage message = new MimeMessage(session);
         try {
             // set sender
@@ -72,23 +76,13 @@ public class EmailSender {
             message.setSubject("Travel Plans", encoding);
             // add attachments
             Multipart multipart = new MimeMultipart();
-            if(attachments.size() != 0){
-                for(int i=0; i<attachments.size(); i++) {
-                    String filePath = attachments.get(i);
-                    MimeBodyPart bodyPart = new MimeBodyPart();
-                    bodyPart.attachFile(filePath);
-                    multipart.addBodyPart(bodyPart);
-                }
-
-                message.setContent(multipart);
-            }
-            else{
-                System.out.println("can't find the file");
-            }
+            MimeBodyPart bodyPart = new MimeBodyPart();
+            bodyPart.attachFile(filePath);
+            multipart.addBodyPart(bodyPart);
+            message.setContent(multipart);
 
             message.setSentDate(new Date());
             message.saveChanges();
-
 
         } catch (MessagingException e) {
             e.printStackTrace();

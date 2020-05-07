@@ -1,14 +1,15 @@
 package PDF;
 
-import com.lowagie.text.DocumentException;
+import com.itextpdf.kernel.pdf.PdfDocument;
+import com.itextpdf.kernel.pdf.PdfReader;
+import com.itextpdf.kernel.pdf.PdfWriter;
+import com.itextpdf.kernel.utils.PdfMerger;
 import freemarker.template.*;
 import org.w3c.dom.Document;
 import org.xhtmlrenderer.pdf.ITextRenderer;
-import org.xml.sax.SAXException;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.parsers.ParserConfigurationException;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -17,9 +18,11 @@ import java.util.Map;
 public class PDFGenerator {
 
     // the file path of the pdf template
-    private static String filePath = "./src/main/java/";
+    private static final String filePath = "./src/main/java/";
     // the file name of the pdf template
-    private static String fileName = "test.html";
+    private static final String fileName = "test.html";
+    // the file path of final plans
+    private static final String MERGED_PDF = "/sre/travel plans.pdf";
 
     /**
      *  emerge pdf template file with data
@@ -108,6 +111,28 @@ public class PDFGenerator {
             e.printStackTrace();
         }
         return attachments;
+    }
+
+    /**
+     * merge pdf files into one
+     * @param files
+     * @throws IOException
+     */
+    public void mergePDF(List<String> files) throws IOException {
+
+        PdfDocument pdfDoc = new PdfDocument(new PdfWriter(MERGED_PDF));
+        PdfMerger pdfMerger = new PdfMerger(pdfDoc);
+        try{
+            for(String file : files){
+                System.out.println(files);
+                PdfDocument pdf = new PdfDocument(new PdfReader(file));
+                pdfMerger.merge(pdf, 1, pdf.getNumberOfPages());
+            }
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+        pdfMerger.close();
+        pdfDoc.close();
     }
 
 }
