@@ -1,11 +1,13 @@
 package Email;
 
+import PDF.PDFGenerator;
+
 import javax.mail.*;
 import javax.mail.internet.*;
-import javax.activation.*;
 import java.io.IOException;
 import java.util.Date;
 import java.util.List;
+import java.util.Map;
 import java.util.Properties;
 
 public class EmailSender {
@@ -15,12 +17,12 @@ public class EmailSender {
     private static String encoding = "UTF-8";
 
     /**
-     * send email to a user
+     * send email to a user with plans
      *
-     * @param recipient
-     * @param attachments
+     * @param recipient the email address of recipient
+     * @param data the data of multi-version plan
      */
-    public void sendEmail(String recipient, List<String>attachments){
+    public void sendEmail(String recipient, List<Map<String, Object>> data) throws Exception {
 
         EmailInfo emailInfo = new EmailInfo();
         Properties props = new Properties();
@@ -30,8 +32,15 @@ public class EmailSender {
         props.put("mail.smtp.socketFactory.port", port);
         props.put("mail.smtp.socketFactory.class", "javax.net.ssl.SSLSocketFactory");
         props.put("mail.smtp.socketFactory.fallback", "false");
-
         Session session = Session.getDefaultInstance(props);
+
+        /**
+         * generate pdf files and
+         * add their file path to attachment list
+         */
+        PDFGenerator generator = new PDFGenerator();
+        List<String> attachments = generator.getAttachmentsList(data);
+
         try{// transport message
             Transport transport = session.getTransport("smtp");
             transport.connect(host, emailInfo.getSender(), emailInfo.getPassword());
