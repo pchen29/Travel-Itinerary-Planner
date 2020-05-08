@@ -1,0 +1,80 @@
+<!-- data model:
+ class user,plan,dates, places,flight,hotel
+ 
+     user: city
+	 plan: dates(list),flight(list),hotel      >plansList
+     dates: places(list), day(string)    >datesList
+     places: name, discription    >placesList
+	 flight: time,flight number,price,departure airport, arriving airport
+	 hotel: name，star，website，price-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8"></meta>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"></meta>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"></meta>
+
+    <title>TravelPlanner: your itinerary</title>
+    <style type="text/css">
+    #header{
+      text-align: center;
+      /*background-color: #FFAF60;*/
+      padding:2px;
+    }
+    #footer{
+      text-align: center;}
+      font-size: 17px;
+    </style>
+</head>
+
+<body>
+
+<header id="header">
+
+
+    <h1><font face="Brush Script MT">Congrats!</font></h1>
+    <h2><font face="cursive">Your itinerary has been successfully generated.<br>You are going to ${user.city!"None"}!</font></h2>
+
+</header>
+<br>
+<#list plansList as plan> <!--plans -->
+<!--dep flight from plan-->
+<h2> Departure flight: </h2>
+<h3> Take-off time:${plan.getFlight()[0].getTime()!"None"}&nbsp;&nbsp; &nbsp;&nbsp; Flight No.:${plan.getFlight()[0].getNum()!"None"}</h3> 
+<h3> Departure airport:${plan.getFlight()[0].getDe()!"None"}&nbsp;&nbsp; &nbsp;&nbsp; Flight price:&nbsp;£${plan.getFlight()[0].getPrice()!"None"}</h3>
+<br>
+
+<#list plan.getDates() as date>  <!--dates -->
+<h2 class="text-uppercase"><strong>DAY ${date.getDay()!"None"}</strong></h2>
+<br>
+
+<#list date.getPlaces() as place>  <!--palces -->
+<h3> ${place.getTime()!"None"}: ${place.getName()!"None"}</h3>
+<h3> $website: ${place.distance} km  <i>Price: ${place.price}</i></h3>
+<br>
+</#list> <!--palces -->
+
+<!--hotel from plan-->
+<h3> 21:00-: ${plan.getHotel().getName()!"None"}</h3>
+<h3> Star: ${plan.getHotel().getStar()!"None"}&nbsp;&nbsp; &nbsp;&nbsp; Price:&nbsp;£${plan.getHotel().getPrice()!"None"}</h3>
+<h3> Hotel website: ${plan.getHotel().getWeb()!"None"}</h3> 
+<br>
+</#list> <!--dates -->
+<br>
+
+<!--return flight from plan-->
+<h2> Return flight: </h2>
+<h3> Take-off time:${plan.getFlight()[1].getTime()!"None"}&nbsp;&nbsp; &nbsp;&nbsp; Flight No.:${plan.getFlight()[1].getNum()!"None"}</h3> 
+<h3> Departure airport:${plan.getFlight()[1].getDe()!"None"}&nbsp;&nbsp; &nbsp;&nbsp; Flight price:&nbsp;£${plan.getFlight()[1].getPrice()!"None"}</h3>
+</#list> <!--plans -->
+<br>
+<br>
+
+
+<footer id="footer">
+    <p> Copyright &copy; 2020, Travel Planner,Team 2 </p>
+</footer>
+</body>
+</html>

@@ -1,9 +1,5 @@
 package PDF;
 
-import com.itextpdf.kernel.pdf.PdfDocument;
-import com.itextpdf.kernel.pdf.PdfReader;
-import com.itextpdf.kernel.pdf.PdfWriter;
-import com.itextpdf.kernel.utils.PdfMerger;
 import freemarker.template.*;
 import org.w3c.dom.Document;
 import org.xhtmlrenderer.pdf.ITextRenderer;
@@ -11,29 +7,14 @@ import org.xhtmlrenderer.pdf.ITextRenderer;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import java.io.*;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
 public class PDFGenerator {
 
-    // the file path of the pdf template
-    private static final String filePath = "./src/main/java/";
-    // the file name of the pdf template
-    private static final String fileName = "test.html";
-    // the file path of final plans
-    private static final String MERGED_PDF = "/sre/travel plans.pdf";
+    private static String filePath = "./src/main/java/";
+    private static String fileName = "itinerary_57 (1).html";
 
-    /**
-     *  emerge pdf template file with data
-     *  transform the html file to string
-     *
-     * @param filePath
-     * @param fileName
-     * @param var
-     * @return
-     * @throws Exception
-     */
     public String getHtmlStr(String filePath, String fileName, Map<String, Object> var) throws Exception {
 
         String htmlStr = "";
@@ -65,13 +46,7 @@ public class PDFGenerator {
         return htmlStr;
     }
 
-    /**
-     * generate pdf file
-     *
-     * @param htmlStr
-     * @param out
-     * @throws Exception
-     */
+
     public void generatePDF(String htmlStr, OutputStream out) throws Exception {
 
         DocumentBuilder builder = DocumentBuilderFactory.newInstance().newDocumentBuilder();
@@ -85,54 +60,22 @@ public class PDFGenerator {
 
     }
 
-    /**
-     * grain the html string
-     * generate pdf file
-     * add files to the list of attachments
-     *
-     * @param dataList the list of multi-version plan
-     * @return
-     * @throws Exception
-     */
-    public List<String> getAttachmentsList(List<Map<String, Object>> dataList) throws Exception{
+    public void getNewPDF(Map<String, Object> data, List<String> attachments) throws Exception{
 
-        List<String> attachments = new ArrayList<String>();
+        String html = getHtmlStr(filePath, fileName, data);
         try{
-            for(int i=0;i<dataList.size();i++){
-                String html = getHtmlStr(filePath, fileName, dataList.get(i));
-                String fileName = "plan " + (i+1) +".pdf";
+            for(int i=0;i<3;i++){
+                String fileName = "0" + i+".pdf";
                 String filePath = "./src/" + fileName;
                 FileOutputStream out = new FileOutputStream(new File(filePath));
                 generatePDF(html, out);
-                attachments.add(filePath);
+                attachments.add(fileName);
             }
 
         }catch (Exception e){
             e.printStackTrace();
         }
-        return attachments;
-    }
 
-    /**
-     * merge pdf files into one
-     * @param files
-     * @throws IOException
-     */
-    public void mergePDF(List<String> files) throws IOException {
-
-        PdfDocument pdfDoc = new PdfDocument(new PdfWriter(MERGED_PDF));
-        PdfMerger pdfMerger = new PdfMerger(pdfDoc);
-        try{
-            for(String file : files){
-                System.out.println(files);
-                PdfDocument pdf = new PdfDocument(new PdfReader(file));
-                pdfMerger.merge(pdf, 1, pdf.getNumberOfPages());
-            }
-        }catch (Exception e){
-            e.printStackTrace();
-        }
-        pdfMerger.close();
-        pdfDoc.close();
     }
 
 }
