@@ -7,24 +7,20 @@ import java.util.List;
 
 public class Attraction {
     private List<Data> data;
-    private Filter filter;
     private Paging paging;
 
     @JsonCreator
     public Attraction(@JsonProperty("data") List<Data> data,
-                      @JsonProperty("paging") Paging paging,
-                      @JsonProperty("filters") Filter filter
+                      @JsonProperty("paging") Paging paging
     ) {
         this.data = data;
         this.paging = paging;
-        this.filter=filter;
     }
 
     @Override
     public String toString() {
         return "Attraction{" +
                 "data=" + data +
-                ", filter=" + filter +
                 ", paging=" + paging +
                 '}';
     }
@@ -37,7 +33,4 @@ public class Attraction {
         return paging;
     }
 
-    public Filter getFilter() {
-        return filter;
-    }
 }

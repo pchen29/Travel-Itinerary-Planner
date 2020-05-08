@@ -15,7 +15,6 @@ public class Data {
     private int location_id;
     private List<Category> subtype;
     private int ranking_geo_id;
-    private double raw_ranking;
     private String ranking_geo;
     private List<Ancestors> ancestors;
     private String email;
@@ -39,7 +38,6 @@ public class Data {
                 @JsonProperty("rating")double rating,
                 @JsonProperty("description")String description,
                 @JsonProperty("location_id")int location_id,
-                @JsonProperty("raw_ranking")double raw_ranking,
                 @JsonProperty("subtype")List<Category> subtype,
                 @JsonProperty("ranking_geo_id")int ranking_geo_id,
                 @JsonProperty("ranking_geo")String ranking_geo,
@@ -76,7 +74,6 @@ public class Data {
         this.phone = phone;
         this.awards = awards;
         this.name = name;
-        this.raw_ranking=raw_ranking;
         this.num_reviews = num_reviews;
         this.category = category;
         this.subcategory = subcategory;
@@ -85,6 +82,7 @@ public class Data {
     @Override
     public String toString() {
         return "Data{" +
+                ", name='" + name + '\'' +
                 "address_object=" + address_object +
                 ", timezone='" + timezone + '\'' +
                 ", latitude=" + latitude +
@@ -94,7 +92,6 @@ public class Data {
                 ", location_id=" + location_id +
                 ", subtype=" + subtype +
                 ", ranking_geo_id=" + ranking_geo_id +
-                ", raw_ranking=" + raw_ranking +
                 ", ranking_geo='" + ranking_geo + '\'' +
                 ", ancestors=" + ancestors +
                 ", email='" + email + '\'' +
@@ -105,15 +102,10 @@ public class Data {
                 ", web_url='" + web_url + '\'' +
                 ", phone='" + phone + '\'' +
                 ", awards=" + awards +
-                ", name='" + name + '\'' +
                 ", num_reviews=" + num_reviews +
                 ", category=" + category +
                 ", subcategory=" + subcategory +
                 '}';
-    }
-
-    public double getRaw_ranking() {
-        return raw_ranking;
     }
 
     public String getTimezone() {

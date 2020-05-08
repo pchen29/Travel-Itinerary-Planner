@@ -1,11 +1,14 @@
 package PDF;
 
+import com.lowagie.text.DocumentException;
 import freemarker.template.*;
 import org.w3c.dom.Document;
 import org.xhtmlrenderer.pdf.ITextRenderer;
+import org.xml.sax.SAXException;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.ParserConfigurationException;
 import java.io.*;
 import java.util.List;
 import java.util.Map;
@@ -13,7 +16,7 @@ import java.util.Map;
 public class PDFGenerator {
 
     private static String filePath = "./src/main/java/";
-    private static String fileName = "itinerary_57 (1).html";
+    private static String fileName = "test.html";
 
     public String getHtmlStr(String filePath, String fileName, Map<String, Object> var) throws Exception {
 

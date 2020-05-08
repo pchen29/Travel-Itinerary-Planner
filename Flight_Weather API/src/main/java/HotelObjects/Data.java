@@ -23,16 +23,14 @@ public class Data {
     private String local_address;
     private String address;
     private String description;
-    private double hotel_class;
+    private String hotel_class;
     private String website;
     private String ranking_geo;
     private String location_string;
     private String tripAdvisor_web_url;
     private String priceLevel;
     private String ranking;
-    private double raw_ranking;
-
-    @JsonCreator
+@JsonCreator
     public Data(@JsonProperty("rating") double rating,
                 @JsonProperty("neighborhood_info")List<Neighborhood_info> neighborhood_info,
                 @JsonProperty("ancestors")List<Ancestors> ancestors,
@@ -51,16 +49,13 @@ public class Data {
                 @JsonProperty("local_address")String local_address,
                 @JsonProperty("address")String address,
                 @JsonProperty("description")String description,
-                @JsonProperty("hotel_class")double hotel_class,
+                @JsonProperty("hotel_class")String hotel_class,
                 @JsonProperty("website")String website,
                 @JsonProperty("ranking_geo")String ranking_geo,
                 @JsonProperty("location_string")String location_string,
                 @JsonProperty("web_url")String tripAdvisor_web_url,
                 @JsonProperty("price_level")String priceLevel,
-                @JsonProperty("ranking")String ranking,
-                @JsonProperty("raw_ranking")double raw_ranking
-    ) {
-
+                @JsonProperty("ranking")String ranking) {
         this.rating = rating;
         this.neighborhood_info = neighborhood_info;
         this.ancestors = ancestors;
@@ -86,7 +81,6 @@ public class Data {
         this.tripAdvisor_web_url = tripAdvisor_web_url;
         this.priceLevel = priceLevel;
         this.ranking = ranking;
-        this.raw_ranking=raw_ranking;
     }
 
     @Override
@@ -117,12 +111,7 @@ public class Data {
                 ", tripAdvisor_web_url='" + tripAdvisor_web_url + '\'' +
                 ", priceLevel='" + priceLevel + '\'' +
                 ", ranking='" + ranking + '\'' +
-                ", raw_ranking='" + raw_ranking + '\'' +
                 '}';
-    }
-
-    public double getRaw_ranking() {
-        return raw_ranking;
     }
 
     public double getRating() {
@@ -164,6 +153,7 @@ public class Data {
     public String getPrice() {
         return price;
     }
+
     public int getRanking_geo_id() {
         return ranking_geo_id;
     }
@@ -196,7 +186,7 @@ public class Data {
         return description;
     }
 
-    public double getHotel_class() {
+    public String getHotel_class() {
         return hotel_class;
     }
 
