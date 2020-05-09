@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8"></meta>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"></meta>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"></meta>
+
+    <title>TravelPlanner: your itinerary</title>
+    <style type="text/css">
+    #header{
+      text-align: center;
+      /*background-color: #FFAF60;*/
+      padding:2px;
+    }
+    #footer{
+      text-align: center;}
+      font-size: 17px;
+    </style>
+</head>
+
+<body>
+
+<header id="header">
+    <h1><font face="Brush Script MT">Congrats!</font></h1>
+    <h2><font face="cursive">Your itinerary has been successfully generated.</font></h2>
+</header>
+<h6>.</h6>
+
+<!-- flight -->
+<h2>  Here is your flight information:</h2>
+<h3> Departure flight: </h3>
+<h3>  ${Flight1!"None"}</h3>
+<h6>.</h6>
+<h3> Return flight: </h3>
+<h3>  ${Flight2!"None"}</h3>
+<h6>.</h6>
+
+<#list Days as day>  <!--days -->
+<h2 class="text-uppercase"><strong> Plan of a day </strong></h2>
+<#list day as places>  <!--places -->
+<h3> ${places!"None"}</h3>
+</#list> <!--places -->
+<h6>.</h6>
+</#list> <!--days -->
+
+
+<!--hotel-->
+<h2>  Here are the hotels we recommond to you:</h2>
+<#list Hotels as hotel>  <!--hotels -->
+<h3> ${hotel!"None"}</h3>
+<h6>.</h6>
+</#list> <!--hotels -->
+
+<h6>.</h6>
+
+
+
+
+<footer id="footer">
+    <p> Copyright &copy; 2020, Travel Planner,Team 2 </p>
+</footer>
+</body>
+</html>
