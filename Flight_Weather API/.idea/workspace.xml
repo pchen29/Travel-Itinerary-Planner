@@ -31,6 +31,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1YJVESgkWerq9k3BbXCQf8HdvuO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -40,7 +41,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Flight_Weather API" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -139,6 +140,7 @@
       <workItem from="1583866141134" duration="12322000" />
       <workItem from="1584017250148" duration="2891000" />
       <workItem from="1584120745148" duration="2617000" />
+      <workItem from="1589135166778" duration="1341000" />
     </task>
     <servers />
   </component>
@@ -174,11 +176,11 @@
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="502" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.2560.1410/-1080.-516.1080.2530@0.0.2560.1410" timestamp="1583872539912" />
-    <state x="987" y="376" key="FileChooserDialogImpl" timestamp="1583275696559">
+    <state x="987" y="376" key="FileChooserDialogImpl" timestamp="1589135307158">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1582731636377" />
-    <state x="987" y="376" key="FileChooserDialogImpl/0.0.2560.1410/-1080.-516.1080.2530@0.0.2560.1410" timestamp="1583275696559" />
+    <state x="987" y="376" key="FileChooserDialogImpl/0.0.2560.1410/-1080.-516.1080.2530@0.0.2560.1410" timestamp="1589135307158" />
     <state width="1037" height="408" key="GridCell.Tab.0.bottom" timestamp="1584126381040">
       <screen x="-1080" y="-516" width="1080" height="2530" />
     </state>
