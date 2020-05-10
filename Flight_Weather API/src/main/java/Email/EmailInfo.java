@@ -5,9 +5,9 @@ import java.util.List;
 public class EmailInfo {
 
     // sender's email address
-    private static String sender = "planyritinerary@gmail.com";
+    private static String sender = "travelxplanner10@gmail.com";
     // sender's email passport
-    private static String password = "travelplan1";
+    private static String password = "kwlcizcslwvazran";
     // recipient's email address
     private String recipient;
     // the file names of attachments
