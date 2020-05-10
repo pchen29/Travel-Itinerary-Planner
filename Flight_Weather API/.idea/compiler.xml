@@ -6,12 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Flight_WeatherAPI" />
         <module name="WeatherAPI" />
+        <module name="TravelPlannerAPI" />
+        <module name="Flight_WeatherAPI" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Flight_WeatherAPI" target="1.8" />
+      <module name="TravelPlannerAPI" target="1.8" />
       <module name="Weather API" target="1.8" />
       <module name="WeatherAPI" target="1.8" />
     </bytecodeTargetLevel>
