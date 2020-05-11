@@ -1,0 +1,5 @@
+@echo off
+start cmd /k "cd bin&&node www"
+
+
+
