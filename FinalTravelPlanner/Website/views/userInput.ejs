@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- styles -->
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel='stylesheet' href='/stylesheets/background.css'>
+    <link rel="stylesheet" href="/stylesheets/bootstrap-select.min.css">
+    <link rel="stylesheet" href="/stylesheets/bootstrap-select-country.min.css" />
+    <!--font-aweseme-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="/javascripts/sendToServer.js"></script>
+    <script src="/javascripts/checkDate.js"></script>
+    <title>UserInput</title>
+</head>
+<body>
+
+<main class="bg">
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container-fluid" style="border: 2px solid white; padding: 20px 100px; border-radius: 10px;">
+            <div class="navbar-header" style="width: 100%;">
+                <div class="row">
+                    <div class="col-lg-8 col-md-11 col-sm-11">
+                        <a style="font-size: xx-large; color: white; text-decoration:none;">Travel Planner</a>
+                    </div>
+                    <div class="col-lg-4 col-md-1 col-sm-1" style=" display: flex; justify-content: flex-end; align-items: flex-end;">
+                        <a style="font-size: small; color: white; text-decoration:none;">Designed by XXX</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row justify-content-center h-100 align-items-end">
+            <div class="col-sm-11 col-md-5 p-4">
+                <div class="card p-4">
+                    <h3 class="text-center mb-3">Input your details</h3>
+                    <form id="inputForm"  action='/input' method='POST'>
+
+                        <div class="form-group">
+                            <label>Email</label>
+                            <input type="text" name="email" id="email" required="true" class="form-control" value="<%= email %>" readonly="readonly">
+                        </div>
+                        <div class="form-group">
+                            <label>Departure City</label>
+                            <input type="text" name="departure" id="departure" required="true" class="form-control" placeholder="Departure" >
+                        </div>
+                        <div class="form-group">
+                             <label> Departure Airport</label>
+                             <input type="text" name="departure_airport" id="departure_airport required="true" class="form-control" list="airport">
+                             <datalist id="airport">
+                                <option value="ABZ"> Aberdeen Dyce Airport
+                                <option value="BFS"> Belfast International Airport
+                                <option value="BHX"> Birmingham International Airport
+                                <option value="BOH"> Bournemouth Airport
+                                <option value="BRS"> Bristol Airport
+                                <option value="CWL"> Cardiff International Airport
+                                <option value="EMA"> East Midlands Airport
+                                <option value="EDI"> Edinburgh Airport
+                                <option value="EXT"> Exeter International Airport
+                                <option value="BHD"> George Best Belfast City Airport
+                                <option value="GLA"> Glasgow International Airport
+                                <option value="LBA"> Leeds Bradford Airport
+                                <option value="LPL"> Liverpool John Lennon Airport
+                                <option value="LGW"> London Gatwick Airport
+                                <option value="LHR"> London Heathrow Airport
+                                <option value="LTN"> London Luton Airport
+                                <option value="STN"> London Stansted Airport
+                                <option value="MAN"> Manchester Airport
+                                <option value="NCL"> Newcastle Airport
+                                <option value="NWI"> Norwich International Airport
+                                <option value="AKT"> RAF Akrotiri
+                                <option value="BZZ"> RAF Brize Norton
+                                <option value="FFD"> RAF Fairford
+                                <option value="LKZ"> RAF Lakenheath
+                                <option value="MHZ"> RAF Mildenhall
+                                <option value="DSA"> Robin Hood Doncaster Sheffield Airport
+                                <option value="SOU"> Southampton Airport
+
+                             </datalist>
+                        </div>
+                        <div class="form-group">
+                            <label>Destination City</label>
+                            <input type="text" name="destination" id="destination" required="true" class="form-control" placeholder="Destination" >
+                        </div>
+                        <div class="form-group">
+                             <label> Destination Airport</label>
+                             <input type="text" name="destination_airport" id="destination_airport required="true" class="form-control" list="airport">
+                        </div>
+                        <div class="form-group">
+                            <label>Departure Date</label>
+                            <input type="date" name="departure_date" id="departure_date" required="true" class="form-control">
+                        </div>
+                        <div class="form-group">
+                             <label>Arrival Date</label>
+                             <input type="date" name="arrival_date" id="arrival_date" required="true" class="form-control" max=>
+                        </div>
+                        <div class="form-group">
+                             <label> Prefer to visit in 9am-12pm</label>
+                             <input type="text" name="subCategory1" id="subCategory1" required="true" class="form-control" list="subCategory">
+                             <datalist id="subCategory">
+                                  <option value="0"> All
+                                  <option value="20"> Nightlife
+                                  <option value="26"> Shopping
+                                  <option value="36"> Food & Drink
+                                  <option value="40"> Spas & Wellness
+                                  <option value="41"> Classes & Workshops
+                                  <option value="42"> Tours
+                                  <option value="47"> Sights & Landmarks
+                                  <option value="48"> Zoos & Aquariums
+                                  <option value="49"> Museums
+                                  <option value="52"> Water & Amusement Parks
+                                  <option value="53"> Casinos & Gambling
+                                  <option value="55"> Boat Tours & Water Sports
+                                  <option value="56"> Fun & Games
+                                  <option value="57"> Nature & Parks
+                                  <option value="58"> Concerts & Shows
+                                  <option value="59"> Transportation
+                                  <option value="60"> Traveler Resources
+                                  <option value="61"> Outdoor Activities
+                                  <option value="62"> Events
+                             </datalist>
+                        </div>
+                        <div class="form-group">
+                              <label> Prefer to visit in 3pm-6pm</label>
+                              <input type="text" name="subCategory2" id="subCategory2" required="true" class="form-control" list="subCategory">
+                        </div>
+                        <div class="form-group">
+                               <label> Prefer to visit in 6.30pm-8.30pm</label>
+                               <input type="text" name="subCategory3" id="subCategory3" required="true" class="form-control" list="subCategory">
+                        </div>
+
+
+
+                        <div id="results" style="margin-top:30px"></div>
+
+
+
+                        <div class="p-3">
+                            <input type="submit" value="Submit"  class="btn btn-outline-primary btn-block" onClick="checkDate()">
+                        </div>
+
+
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</main>
+
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
